@@ -1,0 +1,16 @@
+{
+    "routes": [
+      { "src": "/", "dest": "/" },
+      { "src": "/:videoID", "dest": "/" },
+      { "src": "/publish", "dest": "/" },
+      { "src": "/profile", "dest": "/" },
+      { "src": "/profile/update", "dest": "/" },
+      { "src": "/profile/video/update/:videoID", "dest": "/" },
+      { "src": "/profile/:username", "dest": "/" },
+      { "src": "/subscribedChannels", "dest": "/" },
+      { "src": "/history", "dest": "/" },
+      { "src": "/login", "dest": "/" },
+      { "src": "/signup", "dest": "/" }
+    ]
+  }
+  
